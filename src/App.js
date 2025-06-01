@@ -1,12 +1,11 @@
 import "./App.css";
+import Employee from "./components/Employee";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Employee></Employee>
         <p>
           Also, Hello!
         </p>
